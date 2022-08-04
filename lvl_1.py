@@ -47,7 +47,7 @@ def game():
 def replay():
     replay = int(input())
     if replay == 1:
-        replay()
+        gameset()
     elif replay == 2:
         quit()
     else:
